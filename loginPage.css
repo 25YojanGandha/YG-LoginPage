@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Instagram';
+    src: url(../Fonts/BonittoRegular_DEMO.otf) format('opentype');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.login-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    background-color: white;
+}
+
+.login-container>div{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.login-logo{
+    position: relative;
+    background-color: #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.webapp-headline{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+input{
+    border-style: none;
+    width: 60%;
+    height: 35px;
+    margin: 8px;margin-left: 0px;
+    border-radius: 0px;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(231, 231, 236) 0px 0px 0px 1px inset;
+}
+
+input:hover{
+    background-color: #f4f4f4;
+}
+
+.login-details{
+    padding: 30px;
+    position: relative;
+}
+
+.yg{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.webstore-des{
+    font-weight:bolder !important;
+    margin: 2px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.webapp-headline>div{
+    margin: 5px;
+}
+
+.eclipse{
+    position: absolute;
+    width: 27vw;
+    height: 27vw;
+    left: -10vw;
+    bottom: -15vw;  
+    /* z-index: 1; */
+    /* border: 1px solid red; */
+
+    border-radius: 50%;
+    background: rgba(251, 255, 254, 0.3);
+    box-shadow: inset 6px 4px 31px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.linkedin,.github,.instagram{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.loginimage{
+    width: 80%;
+    height: 75%;
+}
